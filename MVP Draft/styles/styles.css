@@ -177,12 +177,28 @@ footer{
 
 /*@media screen is used to make the website more mobile friendly, making the cards fit to size and the nav to hide the a links */
 @media screen and (max-width: 600px) {
-   .wrapper {
+  .wrapper {
+  float: left;
+  width: 100%;
+  padding-top: 0px;
+  padding-left:0px;
+  
+  
+}
+  
+    .wrapperInfo {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
   }
+  .card {
+  padding: 0px;
+  width:90%;
+  height:400px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
   .responsiveNav a:not(:first-child) {display: none;}
   .responsiveNav a.icon {
     float: right;
