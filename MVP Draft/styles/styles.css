@@ -63,8 +63,8 @@ nav img {
 }
 
 
-/*changed wrapperinfo to display white background box*/
-.wrapperInfo{
+/*changed wrapperinfo to display white background box for 4 cards*/
+.wrapperInfo4{
 	display:block;
 	width:87%;
 	clear: both;	
@@ -72,6 +72,18 @@ nav img {
     margin-right: auto;
 	background-color:white;
 	padding-bottom:1250px;
+	
+	
+}
+/*changed wrapperinfo to display white background box for 2 cards*/
+.wrapperInfo2{
+	display:block;
+	width:87%;
+	clear: both;	
+	margin-left: auto;
+    margin-right: auto;
+	background-color:white;
+	padding-bottom:625px;
 	
 	
 }
@@ -90,13 +102,21 @@ nav img {
   
 }
 
+.wrapper3 {
+  float: left;
+  width: 95%;
+  padding-top: 50px;
+  padding-left:38px;
+  
+}
+
 
 
 /*iframe is used to style embbeded youtube videos*/
 iframe{
 	display:block;
 	width:100%;
-	padding:10px;
+	padding:0px;
 }
 
 .infoCards:after {
@@ -180,22 +200,56 @@ footer{
   .wrapper {
   float: left;
   width: 100%;
-  padding-top: 0px;
+  padding-top: 25px;
   padding-left:0px;
   
   
 }
+
+  .wrapper3 {
+  float: left;
+  width: 100%;
+  padding-top: 25px;
+  padding-left:0px;
   
-    .wrapperInfo {
+  
+}
+
+.mainheading h1 {
+  z-index: 100;
+  color:#ffffff;
+  padding-bottom:100px;
+  Font-size:60px;
+}
+
+  .wrapperInfo2{
+	   width: 100%;
+    display: block;
+    margin-bottom: 0px;
+	padding-bottom:900px;
+	
+  }
+  
+    .wrapperInfo4{
+	   width: 100%;
+    display: block;
+    margin-bottom: 0px;
+	padding-bottom:1750px;
+	
+  }
+   .wrapperInfo {
     width: 100%;
     display: block;
     margin-bottom: 0px;
+	padding-bottom:1750px;
 
   }
+  
   .card {
-  padding: 0px;
-  width:90%;
+  padding: 5px;
+  width:95%;
   height:400px;
+  margin:auto;
   text-align: center;
   background-color: #f1f1f1;
 }
