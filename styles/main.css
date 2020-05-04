@@ -89,9 +89,12 @@ nav img {
 }
 
 /*css for the header in the white box*/
-.wrapperInfo h1{
-	padding:20px;
-	margin:0px;
+.wrapperInfo4 h1,
+.wrapperInfo2 h1
+{
+	color:white;
+	padding:15px;
+	background-color:#2f3136;
 }
 
 .wrapper {
