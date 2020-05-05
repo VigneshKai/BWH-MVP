@@ -62,6 +62,12 @@ nav img {
   Font-size:60px;
 }
 
+.mainheading h3, .mainheading p{
+	margin:auto;
+	padding-bottom:15px;
+	background-color:white;
+}
+
 
 /*changed wrapperinfo to display white background box for 4 cards*/
 .wrapperInfo4{
