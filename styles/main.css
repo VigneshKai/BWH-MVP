@@ -58,14 +58,16 @@ nav img {
 .mainheading h1 {
   z-index: 100;
   color:#ffffff;
-  padding-bottom:275px;
+  padding-bottom:210px;
   Font-size:60px;
+  margin-bottom:auto;
 }
 
 .mainheading h3, .mainheading p{
 	margin:auto;
 	padding-bottom:15px;
-	background-color:white;
+	
+	color:white;
 }
 
 
