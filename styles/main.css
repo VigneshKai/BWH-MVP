@@ -130,18 +130,16 @@ nav img {
 	text-align:center;
 
 }
-.row h1{
-	padding:0;
-	margin:0;
-
-}
 
 .row img{
-    width:300px;
+    width:250px;
 	padding:0;
 	margin:0;
 }
 
+.row .GoldImg{
+	width:200px;
+}
 .row .BronzeImg{
 	width:150px;
 	padding:0;
@@ -150,6 +148,7 @@ nav img {
 	animation-duration: 10s;
 	animation-iteration-count:infinite;
 }
+
 
 
 article {
@@ -169,7 +168,7 @@ article h1{
 }
 
 article h2{
-	font-size:45px;
+	font-size:35px;
 	margin:0;
 	color:white;
 
@@ -224,15 +223,44 @@ iframe{
 #modal, #modal1{
 display:none;
 }
-#modal-content, #modal-content1{
+.modal-content{
 width:80%;
-font-size:10vw;
+font-size:20px;
+text-align:left;
+display:block;
+margin:auto;
+}
+.modal-content .closebutton{
+	position:relative;
+	display:inline-block;
+	float:right;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border-radius:42px;
+	border:1px solid #002bff;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:27px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 13px #ffffff;
+}
+
+.modal-content .closebutton:hover {
+	background-color:#f6f6f6;
+}
+.modal-content .closebutton:active {
+	position:relative;
+	top:1px;
 }
 #modal-slideout{
 animation-duration: 0.25s;
 animation-name: slideout;
-background-color:black;
-color:white;
+background-color:#f1f1f1;
+color:black;
 z-index: 1;
 position: fixed;
 width:100%;
@@ -247,8 +275,8 @@ animation-fill-mode: forwards;
 #modal-slidein{
 animation-duration: 0.25s;
 animation-name: slidein;
-background-color:black;
-color:white;
+background-color:#f1f1f1;
+color:black;
 z-index: 99;
 position: fixed;
 width:100%;
@@ -262,8 +290,8 @@ display = 'block';
 #modal-slideout1{
 animation-duration: 0.25s;
 animation-name: slideout;
-background-color:black;
-color:white;
+background-color:#f1f1f1;
+color:black;
 z-index: 1;
 position: fixed;
 width:100%;
@@ -278,8 +306,8 @@ animation-fill-mode: forwards;
 #modal-slidein1{
 animation-duration: 0.25s;
 animation-name: slidein;
-background-color:black;
-color:white;
+background-color:#f1f1f1;
+color:black;
 z-index: 99;
 position: fixed;
 width:100%;
@@ -319,10 +347,8 @@ display = 'block';
 	margin-left: auto;
     margin-right: auto;
 	background-color:white;
-
-
-
 }
+
 
 footer{
 	padding:20px 0;
@@ -427,6 +453,11 @@ footer div{
   text-align: center;
   background-color: #f1f1f1;
 }
+
+.modal-content{
+width:100%;
+}
+
   .responsiveNav a:not(:first-child) {display: none;}
   .responsiveNav a.icon {
     float: right;
