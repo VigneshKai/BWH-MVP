@@ -29,35 +29,33 @@ var x = setInterval(function() {
 }, 1000);
 
 
-//Second script is for the collapsables adapted from https://www.w3schools.com/howto/howto_js_collapsible.asp
-function myFunction() {
-	/*If Display is  equal to none then show hidden content*/
-  var x = document.getElementById("hidecontent");
-  if (x.style.display === "none")
-    {x.style.display = "inline-block";}
-   else {
-	/*If Display is not equal to none then hide the content*/
-    x.style.display = "none";
-  }
+var modal = document.getElementById("modal");
+var modal1 = document.getElementById("modal1");
+var btn = document.getElementById("collapsible1");
+var btn = document.getElementById("collapsible2");
+var clbtn = document.getElementById('closebtn');
+var clbtn = document.getElementById('closebtn1');
+var bod = document.getElementById('body');
+
+
+btn.onclick = function(){
+	modal.setAttribute('Id','modal-slidein')
+	bod.style.overflowY = 'hidden';
 }
 
-function myFunction2() {
-  var x = document.getElementById("hidecontent2");
-  if (x.style.display === "none")
-    {x.style.display = "inline-block";}
-   else {
-    x.style.display = "none";
-  }
+btn1.onclick = function(){
+	modal.setAttribute('Id','modal-slidein1')
+	bod.style.overflowY = 'hidden';
 }
 
-function myFunction3() {
-  var x = document.getElementById("hidecontent3");
-  if (x.style.display === "none")
-    {x.style.display = "inline-block";}
-   else {
-    x.style.display = "none";
+clbtn.onclick=function(){
+	modal.setAttribute('Id','modal-slideout')
+	bod.style.overflowY = 'scroll';
+}
 
-  }
+clbtn1.onclick=function(){
+	modal.setAttribute('Id','modal-slideout1')
+	bod.style.overflowY = 'scroll';
 }
 
 //Second script is for the Mobile friendly Navigation Bar adapted from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
@@ -70,3 +68,4 @@ function navRespon() {
     x.className = "responsiveNav";
   }
 }
+
