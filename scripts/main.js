@@ -32,9 +32,9 @@ var x = setInterval(function() {
 var modal = document.getElementById("modal");
 var modal1 = document.getElementById("modal1");
 var btn = document.getElementById("collapsible1");
-var btn = document.getElementById("collapsible2");
+var btn1 = document.getElementById("collapsible2");
 var clbtn = document.getElementById('closebtn');
-var clbtn = document.getElementById('closebtn1');
+var clbtn1 = document.getElementById('closebtn1');
 var bod = document.getElementById('body');
 
 
@@ -43,20 +43,22 @@ btn.onclick = function(){
 	bod.style.overflowY = 'hidden';
 }
 
-btn1.onclick = function(){
-	modal.setAttribute('Id','modal-slidein1')
-	bod.style.overflowY = 'hidden';
-}
-
 clbtn.onclick=function(){
 	modal.setAttribute('Id','modal-slideout')
 	bod.style.overflowY = 'scroll';
 }
 
+btn1.onclick = function(){
+	modal1.setAttribute('Id','modal-slidein1')
+	bod.style.overflowY = 'hidden';
+}
+
 clbtn1.onclick=function(){
-	modal.setAttribute('Id','modal-slideout1')
+	modal1.setAttribute('Id','modal-slideout')
 	bod.style.overflowY = 'scroll';
 }
+
+
 
 //Second script is for the Mobile friendly Navigation Bar adapted from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
 function navRespon() {

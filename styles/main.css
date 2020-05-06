@@ -259,7 +259,7 @@ top: 0;
 display = 'block';
 }
 
-#modal-slideout{
+#modal-slideout1{
 animation-duration: 0.25s;
 animation-name: slideout;
 background-color:black;
@@ -275,7 +275,7 @@ animation-fill-mode: forwards;
 	
 }
 
-#modal-slidein{
+#modal-slidein1{
 animation-duration: 0.25s;
 animation-name: slidein;
 background-color:black;
@@ -288,13 +288,12 @@ overflow: auto;
 left: 0;
 top: 0;
 display = 'block';
-	  
-
 }
 
-@keyframes slidein1 {
+
+@keyframes slidein {
   from {
-    margin-left: -100%;
+    margin-left: 100%;
   }
 
   to {
@@ -302,17 +301,15 @@ display = 'block';
   }
 }
 
-@keyframes slideout1 {
+@keyframes slideout {
   from {
     margin-left: 0%;
 	display:block;
   }
-
   to {
-    margin-left: -100%;
+    margin-left: 100%;
 	display:none;
   }
-}
 
 
 .sponsorback{
@@ -326,7 +323,6 @@ display = 'block';
 
 
 }
-
 
 footer{
 	padding:20px 0;
