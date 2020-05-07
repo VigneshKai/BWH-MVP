@@ -357,7 +357,8 @@ footer{
 	clear:both;
 	width:100%;
 	background:#15115E;
-
+	display:block;
+	position: absolute;
 }
 footer div{
 	width:50%;
