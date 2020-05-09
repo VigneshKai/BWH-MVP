@@ -611,6 +611,17 @@ width:100%;
 	width:100%;
 	align:left;
 }
+
+.card-header h3{
+	font-family:Arial;
+	font-size:22px;
+	text-decoration:none;
+	font-style: italic;
+
+}
+
+
+
 /*
 .card-content img{
 		border: 1px solid #000000;
