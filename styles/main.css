@@ -520,17 +520,19 @@ width:100%;
 }
 .card{
   border: 2px solid #fff;
+	background-color: #f1f1f1;
   box-shadow: 1px 1px 15px #ccc;
 }
 .card-body{
-  background: #fff;
+  background: #f1f1f1;
   width: 100%;
   vertical-align: top;
 }
 .card-content{
-  text-align: left;
+	margin: auto 0;
+	padding: 0 0 1em 0;
   color: #333;
-  padding: 15px;
+
 }
 .card-text{
   font-size: 14px;
@@ -560,19 +562,52 @@ width:100%;
 /* Button Styles */
 
 .button {
-
+  margin: 0 auto;
   background-color:#15115E;
   border-radius:5px;
-  height: 40px;
+  height: 60px;
   width: 70%;
+	padding: 1px 0 0 0;
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	background-color:#15115E;
 	border-radius:5px;
-	display:inline-block;
-	cursor:pointer;
-	color:white;
+	text-align: center;
+	color: #fff;
+}
+
+.button h3 {
 	font-family:Arial;
 	font-size:16px;
 	text-decoration:none;
+	color: fff;
 }
-  }
+.plat{
+	margin:0;
+	background-color: #e5e4e2;
+	padding: .2em 0 .2em 0;
+	width:100%;
+	align:left;
+}
+
+.gold{
+	background-color: #d4af37;
+	padding: .2em 0 .2em 0;
+	width:100%;
+	align:left;
+	width:100%;
+}
+
+.silver{
+	background-color: #c0c0c0;
+	padding: .2em 0 .2em 0;
+	width:100%;
+	align:left;
+	width:100%;
+}
+
+.bronze{
+	background-color: #b08d57;
+	padding: .2em 0 .2em 0;
+	width:100%;
+	align:left;
+	width:100%;
+}
