@@ -583,31 +583,31 @@ width:100%;
 .plat{
 	margin:0;
 	background-color: #e5e4e2;
-	padding: .2em 0 .2em 0;
+	padding: 4px 0 4px 0;
 	width:100%;
 	align:left;
 }
 
 .gold{
+	margin:0;
 	background-color: #d4af37;
-	padding: .2em 0 .2em 0;
+	padding: 4px 0 4px 0;
 	width:100%;
 	align:left;
-	width:100%;
 }
 
 .silver{
+	margin:0;
 	background-color: #c0c0c0;
-	padding: .2em 0 .2em 0;
+	padding: 4px 0 4px 0;
 	width:100%;
 	align:left;
-	width:100%;
 }
 
 .bronze{
+	margin:0;
 	background-color: #b08d57;
-	padding: .2em 0 .2em 0;
+	padding: 4px 0 4px 0;
 	width:100%;
 	align:left;
-	width:100%;
 }
