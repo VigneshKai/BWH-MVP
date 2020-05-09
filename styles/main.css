@@ -560,7 +560,6 @@ width:100%;
 
 
 /* Button Styles */
-
 .button {
   margin: 0 auto;
   background-color:#15115E;
@@ -580,6 +579,7 @@ width:100%;
 	text-decoration:none;
 	color: fff;
 }
+
 .plat{
 	margin:0;
 	background-color: #e5e4e2;
@@ -611,3 +611,8 @@ width:100%;
 	width:100%;
 	align:left;
 }
+/*
+.card-content img{
+		border: 1px solid #000000;
+}
+*/
