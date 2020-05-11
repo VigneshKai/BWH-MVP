@@ -31,9 +31,13 @@
         <a href="javascript:void(0);" class="icon" onclick="navRespon()">
             <i class="fa fa-bars"></i></a>
     </nav>
-    <section class=mainheading>
+    <section class="mainheading">
         <img src="images/PF3NTE.jpg" class="codebg" alt='codebg'>
-        <h1>CDU CODEFAIR <p id="count"></p></h1>
+        <!--<h1>CDU CODEFAIR <p id="count"></p></h1>-->
+        <!--counter id fired an error being in the <h1> tags -->
+        <h1>CDU CODEFAIR</h1>
+        <p class="header" id="count"></p>
+
 
     </section>
 
@@ -43,7 +47,7 @@
         <h1> What we have to offer</h1>
         <div class="wrapper">
             <div class="card_1">
-                <iframe title="Code Fair 2018 CDU" width="400" height="254" src="https://www.youtube.com/embed/n8TNXosTl-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Code Fair 2018 CDU" width="400" height="254" src="https://www.youtube.com/embed/n8TNXosTl-I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h3>What is code fair?</h3>
                     <p>The IT codefair is a fun event with students sharing their IT skills, with special focus on connecting students with the IT Industry</p>
 					<p>Show Off Your Creative digital problem solving!</p>
@@ -59,8 +63,10 @@
 				<p>The code fair has many special activities</p>
                 <button class="collapsible" id="collapsible1">See Schedule</button>
 				<div id="modal" class="modal">
-                <div id="modal-content" class="modal-content">
-				<button class ='closebutton'id='closebtn'>X</button>
+                <!--Could'nt see the id modal-content being used or a style created?-->
+                <!--<div id="modal-content" class="modal-content">-->
+                <div class="modal-content">
+				<button class ='closebutton' id='closebtn'>X</button>
                     <ul>
                         <li>8.30&nbsp; &nbsp; Registration</li>
                         <li>9.00&nbsp; &nbsp; CDU IT Code Fair Opening</li>
@@ -118,6 +124,7 @@
         <h1>Special Thanks to our Sponsors!</h1>
 
  <!-- PB Caro of doom! 9/5-->
+ <!-- Based on caro from code pen -->
 <div class="pbwrapper">
 		<div class="carousel">
 
@@ -128,10 +135,10 @@
           </div>
             <div class="card-body">
               <div class="card-content">
-                  <img src="images/ntgovlogo.png">
+                  <img src="images/ntgovlogo.png" alt="nt gov logo">
                 <div class="card-text">
                   <button class="button" onclick ="">
-                    <h3>Find out more</h3>
+                    Find out more
                   </button>
                 </div>
               </div>
@@ -146,10 +153,10 @@
 				  </div>
 					  <div class="card-body">
 							<div class="card-content">
-                  <img src="images/interSystemLogo.png">
+                  <img src="images/interSystemLogo.png" alt="inter sys logo">
 								<div class="card-text">
                   <button class="button" onclick ="">
-										<h3>Find out more</h3>
+										Find out more
 									</button>
 								</div>
 							</div>
@@ -164,10 +171,10 @@
 				  </div>
 						<div class="card-body">
 							<div class="card-content">
-                 <img src="images/kineticLogo.png">
+                 <img src="images/kineticLogo.png" alt="kinetic logo">
 									<div class="card-text">
                     <button class="button" onclick ="">
-  										<h3>Find out more</h3>
+  										Find out more
   									</button>
 									</div>
 							</div>
@@ -182,10 +189,10 @@
 				  </div>
 						<div class="card-body">
 							<div class="card-content">
-                 <img src="images/radicalLogo.png">
+                 <img src="images/radicalLogo.png" alt="radical logo">
 									 <div class="card-text">
                      <button class="button" onclick ="">
-   										<h3>Find out more</h3>
+   										Find out more
    									</button>
 									</div>
 							</div>
@@ -194,10 +201,8 @@
 			  </div>
 		</div>
 </div>
-
+<br/>
   </article>
-
-
 
     <footer>
         <div>

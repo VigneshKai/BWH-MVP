@@ -58,15 +58,20 @@ nav img {
 .mainheading h1 {
   z-index: 100;
   color:#ffffff;
-  padding-bottom:210px;
   Font-size:60px;
-  margin-bottom:auto;
+	margin-bottom: 1px;
 }
 
-.mainheading h3, .mainheading p{
+.mainheading p{
+	color:white;
+	Font-size:50px;
+	margin-top: 1px;
+	padding-bottom:207px;
+}
+
+.mainheading h3, {
 	margin:auto;
 	padding-bottom:15px;
-
 	color:white;
 }
 
@@ -121,8 +126,6 @@ nav img {
 
 }
 
-
-
 .row{
 	width:100%;
 	clear: both;
@@ -149,8 +152,6 @@ nav img {
 	animation-iteration-count:infinite;
 }
 
-
-
 article {
   background-image:url("../images/group.png");
   min-height: 500px;
@@ -172,7 +173,7 @@ article h2{
 	font-size:35px;
 	margin:0;
 	color:white;
-
+  frameborder:0;
 }
 
 /*iframe is used to style embbeded youtube videos*/
@@ -180,6 +181,7 @@ iframe{
 	display:block;
 	width:100%;
 	padding:0px;
+	border: none;
 }
 
 .infoCards:after {
@@ -218,12 +220,10 @@ iframe{
 	top:1px;
 }
 
-
-
-
 #modal, #modal1{
 display:none;
 }
+
 .modal-content{
 width:80%;
 font-size:20px;
@@ -231,6 +231,7 @@ text-align:left;
 display:block;
 margin:auto;
 }
+
 .modal-content .closebutton{
 	position:relative;
 	display:inline-block;
@@ -253,10 +254,12 @@ margin:auto;
 .modal-content .closebutton:hover {
 	background-color:#f6f6f6;
 }
+
 .modal-content .closebutton:active {
 	position:relative;
 	top:1px;
 }
+
 #modal-slideout{
 animation-duration: 0.25s;
 animation-name: slideout;
@@ -270,7 +273,6 @@ overflow: auto;
 left: 0;
 top: 0;
 animation-fill-mode: forwards;
-
 }
 
 #modal-slidein{
@@ -301,7 +303,6 @@ overflow: auto;
 left: 0;
 top: 0;
 animation-fill-mode: forwards;
-
 }
 
 #modal-slidein1{
@@ -318,7 +319,6 @@ left: 0;
 top: 0;
 display = 'block';
 }
-
 
 @keyframes slidein {
   from {
@@ -350,7 +350,6 @@ display = 'block';
 	background-color:white;
 }
 
-
 footer{
 	padding:20px 0;
 	border-top:4px;
@@ -362,6 +361,7 @@ footer{
 	/* position: absolute; */
 	float:left;
 }
+
 footer div{
 	width:50%;
 	text-align:center;
@@ -374,7 +374,6 @@ footer div{
   width: 50px;
   text-align: center;
   text-decoration: none;
-
 }
 
 .fa:hover {
@@ -404,18 +403,13 @@ footer div{
   width: 100%;
   padding-top: 25px;
   padding-left:0px;
-
-
 }
-
 
   .wrapper3 {
   float: left;
   width: 100%;
   padding-top: 25px;
   padding-left:0px;
-
-
 }
 
 .mainheading h1 {
@@ -425,30 +419,28 @@ footer div{
   Font-size:60px;
 }
 
-  .wrapperInfo2{
+.wrapperInfo2{
 	   width: 100%;
     display: block;
     margin-bottom: 0px;
 	padding-bottom:900px;
+}
 
-  }
-
-    .wrapperInfo4{
-	   width: 100%;
-    display: block;
-    margin-bottom: 0px;
+.wrapperInfo4{
+	width: 100%;
+  display: block;
+  margin-bottom: 0px;
 	padding-bottom:1750px;
 
   }
-   .wrapperInfo {
-    width: 100%;
-    display: block;
-    margin-bottom: 0px;
+.wrapperInfo {
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
 	padding-bottom:1750px;
-
   }
 
-  .card_1 {
+.card_1 {
   padding: 5px;
   width:95%;
   height:550px;
@@ -461,12 +453,11 @@ footer div{
 width:100%;
 }
 
-  .responsiveNav a:not(:first-child) {display: none;}
-  .responsiveNav a.icon {
+.responsiveNav a:not(:first-child) {display: none;}
+.responsiveNav a.icon {
     float: right;
     display: block;
   }
-
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   .responsiveNav.responsive {position: fixed;}
@@ -481,11 +472,6 @@ width:100%;
     text-align: left;
   }
 }
-
-
-
-
-
 
 /* PB CODEAGE 9/5/20 */
 /********************************************************************************/
@@ -507,59 +493,63 @@ width:100%;
   width:100%;
   margin:0px auto;
 }
+
 .slick-slide{
   margin:10px;
 }
+
 .slick-slide img{
   width:100%;
 }
+
 .slick-prev, .slick-next{
   background: #000;
   border-radius: 15px;
   border-color: transparent;
 }
+
 .card{
   border: 2px solid #fff;
 	background-color: #f1f1f1;
   box-shadow: 1px 1px 15px #ccc;
 }
+
 .card-body{
   background: #f1f1f1;
   width: 100%;
   vertical-align: top;
 }
+
 .card-content{
 	margin: auto 0;
 	padding: 0 0 1em 0;
   color: #333;
-
 }
 .card-text{
   font-size: 14px;
   font-weight: 300;
 }
 
-
-
 @media only screen and (min-width: 600px)  {
-
 .card{
 	flex: 0 1 calc(50% - 1em);
 }
 
+.card-header h3{
+	font-family:Arial;
+	font-size:16px;
+	text-decoration:none;
+	font-style: italic;
 }
-
+}
 
 @media only screen and (min-width: 768px)  {
 .card{
 	flex: 0 1 calc(50% - 1em);
 }
-
-
 }
 
-
-/* Button Styles */
+/* Button Style */
 .button {
   margin: 0 auto;
   background-color:#15115E;
@@ -571,13 +561,9 @@ width:100%;
 	border-radius:5px;
 	text-align: center;
 	color: #fff;
-}
-
-.button h3 {
 	font-family:Arial;
 	font-size:16px;
 	text-decoration:none;
-	color: fff;
 }
 
 .plat{
@@ -617,13 +603,4 @@ width:100%;
 	font-size:20px;
 	text-decoration:none;
 	font-style: italic;
-
 }
-
-
-
-/*
-.card-content img{
-		border: 1px solid #000000;
-}
-*/
