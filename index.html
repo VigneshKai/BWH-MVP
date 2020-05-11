@@ -1,70 +1,69 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
-    <title>IT CODEFAIR|2020|Challenges</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CDU CodeFair 2020">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-	  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
-	  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
-    <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body id='body'>
-    <nav class="responsiveNav" id="responsiveNav">
-        <a href="index.html"><img src="images/cdu-logo.png" class="navLogo" alt='CDU LOGO'></a>
-        <a href="index.html"><img src="images/codefair-logo.png" class="navLogo" alt='IT CODEFAIR LOGO'></a>
-        <a href="codefair/challenges.html" class="active">CHALLENGES</a>
-        <a href="codefair/competitions.html">COMPETITIONS</a>
-        <a href="codefair/events.html">EVENTS</a>
-        <a href="codefair/forschools.html">FOR SCHOOLS</a>
-        <a href="codefair/forindustry.html">FOR INDUSTRY</a>
-        <a href="https://itcodefair.cdu.edu.au/about">ABOUT</a>
-        <a href="https://itcodefair.cdu.edu.au/resources">RESOURCES</a>
-        <!--Three bars that trigger the java script in mobile view-->
-        <a href="javascript:void(0);" class="icon" onclick="navRespon()">
-            <i class="fa fa-bars"></i></a>
-    </nav>
-    <header class="mainheading">
-        <img src="images/PF3NTE.jpg" class="codebg" alt='codebg'>
-        <!--<h1>CDU CODEFAIR <p id="count"></p></h1>-->
-        <!--counter id fired an error being in the <h1> tags -->
-        <br/>
-        <h1>CDU CODEFAIR</h1>
-        <p class="header" id="count"></p>
-    </header>
-
-    <section class='wrapperInfo4'>
-        <!--wrapperInfo is used for ease of CSS styling, Info cards are seperate to properly work with Javascript-->
-
-        <h2> What we have to offer</h2>
-        <div class="wrapper">
+   <head>
+      <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
+      <title>IT CODEFAIR|2020|Challenges</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="CDU CodeFair 2020">
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+      <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body id='body'>
+      <nav class="responsiveNav" id="responsiveNav">
+         <a href="index.html"><img src="images/cdu-logo.png" class="navLogo" alt='CDU LOGO'></a>
+         <a href="index.html"><img src="images/codefair-logo.png" class="navLogo" alt='IT CODEFAIR LOGO'></a>
+         <a href="codefair/challenges.html" class="active">CHALLENGES</a>
+         <a href="codefair/competitions.html">COMPETITIONS</a>
+         <a href="codefair/events.html">EVENTS</a>
+         <a href="codefair/forschools.html">FOR SCHOOLS</a>
+         <a href="codefair/forindustry.html">FOR INDUSTRY</a>
+         <a href="codefair/sponsors.html">SPONSORS</a>
+         <a href="https://itcodefair.cdu.edu.au/about">ABOUT</a>
+         <a href="https://itcodefair.cdu.edu.au/resources">RESOURCES</a>
+         <!--Three bars that trigger the java script in mobile view-->
+         <a href="javascript:void(0);" class="icon" onclick="navRespon()">
+         <i class="fa fa-bars"></i></a>
+      </nav>
+      <header class="mainheading">
+         <img src="images/PF3NTE.jpg" class="codebg" alt='codebg'>
+         <!--<h1>CDU CODEFAIR <p id="count"></p></h1>-->
+         <!--counter id fired an error being in the <h1> tags -->
+         <br/>
+         <h1>CDU CODEFAIR</h1>
+         <p class="header" id="count"></p>
+      </header>
+	  
+	  
+      <section class='wrapperInfo4'>
+         <!--wrapperInfo is used for ease of CSS styling, Info cards are seperate to properly work with Javascript-->
+         <h2> What we have to offer</h2>
+         <div class="wrapper">
             <div class="card_1">
-                <iframe title="Code Fair 2018 CDU" width="400" height="254" src="https://www.youtube.com/embed/n8TNXosTl-I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>What is code fair?</h3>
-                    <p>The IT codefair is a fun event with students sharing their IT skills, with special focus on connecting students with the IT Industry</p>
-					<p>Show Off Your Creative digital problem solving!</p>
-                    <br/>
-                </div>
+               <iframe title="Code Fair 2018 CDU" width="400" height="254" src="https://www.youtube.com/embed/n8TNXosTl-I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <h3>What is code fair?</h3>
+               <p>The IT codefair is a fun event with students sharing their IT skills, with special focus on connecting students with the IT Industry</p>
+               <p>Show Off Your Creative digital problem solving!</p>
+               <br/>
             </div>
-
-
-        <div class="wrapper">
+         </div>
+		 
+		 
+         <div class="wrapper">
             <div class="card_1">
-                <img class='infoImg' src='images/cometo.jpg' alt='Come to the Codefair'>
-                <h3>Come to the Code Fair!</h3>
-				<p>The code fair has many special activities</p>
-                <button class="collapsible" id="collapsible1">See Schedule</button>
-				<div id="modal" class="modal">
-                <!--Could'nt see the id modal-content being used or a style created?-->
-                <!--<div id="modal-content" class="modal-content">-->
-                <div class="modal-content">
-				<button class ='closebutton' id='closebtn'>X</button>
-                    <ul>
+               <img class='infoImg' src='images/cometo.jpg' alt='Come to the Codefair'>
+               <h3>Come to the Code Fair!</h3>
+               <p>The code fair has many special activities</p>
+               <button class="collapsible" id="collapsible1">See Schedule</button>
+               <div id="modal" class="modal">
+                  <!--Could'nt see the id modal-content being used or a style created?-->
+                  <!--<div id="modal-content" class="modal-content">-->
+                  <div class="modal-content">
+                     <button class ='closebutton' id='closebtn'>X</button>
+                     <ul>
                         <li>8.30&nbsp; &nbsp; Registration</li>
                         <li>9.00&nbsp; &nbsp; CDU IT Code Fair Opening</li>
                         <li>9.05&nbsp; &nbsp; Welcome to the country by Larrakia Nation</li>
@@ -81,151 +80,159 @@
                         <li>14.00&nbsp; Afternoon Tea</li>
                         <li>14.15&nbsp; Employer Speed Dating</li>
                         <li>15.30&nbsp; Event Ends</li>
-                    </ul>
-					</div>
-                </div>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-
-        <div class="wrapper">
+         </div>
+		 
+		 
+         <div class="wrapper">
             <div class="card_1">
-                <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Esplanade+Darwin/@-12.460869,130.83608,17z/data=!4m5!3m4!1s0x0:0xe11c74243a0643b9!8m2!3d-12.4608688!4d130.8360804?hl=en-US" target="_blank"><img class='infoImg' src='images/map.PNG' alt='Double Tree Hiltion Map'></a>
-                <h3>Where is code fair?</h3>
-                <p> <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Esplanade+Darwin/@-12.460869,130.83608,17z/data=!4m5!3m4!1s0x0:0xe11c74243a0643b9!8m2!3d-12.4608688!4d130.8360804?hl=en-US">DoubleTree By Hilton Hotel </a> Esplanade Darwin (116 Esplanade, Darwin City)</p>
+               <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Esplanade+Darwin/@-12.460869,130.83608,17z/data=!4m5!3m4!1s0x0:0xe11c74243a0643b9!8m2!3d-12.4608688!4d130.8360804?hl=en-US" target="_blank"><img class='infoImg' src='images/map.PNG' alt='Double Tree Hiltion Map'></a>
+               <h3>Where is code fair?</h3>
+               <p> <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Esplanade+Darwin/@-12.460869,130.83608,17z/data=!4m5!3m4!1s0x0:0xe11c74243a0643b9!8m2!3d-12.4608688!4d130.8360804?hl=en-US">DoubleTree By Hilton Hotel </a> Esplanade Darwin (116 Esplanade, Darwin City)</p>
             </div>
-        </div>
-
-        <div class="wrapper">
+         </div>
+		 
+		 
+         <div class="wrapper">
             <div class="card_1">
-                <img class='infoImg' src='images/sevents.jpg' alt='Series of Events'>
-                <h3>Series of Events</h3>
-                <button class="collapsible" id="collapsible2">See more</button>
-                <div id="modal1" class="modal1">
-                <div id="modal-content" class="modal-content">
-				<button class ='closebutton' id='closebtn1'>X</button>
-                    <p> 16 October, 10 am: Briefing Session for Challenges</p>
-                    <br/>
-                    <p>12 November: Cyber Security Challenge</p>
-                    <br/>
-                    <p>13 November: Business Innovation Challenge</p>
-                    <br/>
-                    <p>15 November: IT Code Fair </p>
-                    <br/>
-                </div>
-				</div>
+               <img class='infoImg' src='images/sevents.jpg' alt='Series of Events'>
+               <h3>Series of Events</h3>
+               <button class="collapsible" id="collapsible2">See more</button>
+               <div id="modal1" class="modal1">
+                  <div id="modal-content" class="modal-content">
+                     <button class ='closebutton' id='closebtn1'>X</button>
+                     <p> 16 October, 10 am: Briefing Session for Challenges</p>
+                     <br/>
+                     <p>12 November: Cyber Security Challenge</p>
+                     <br/>
+                     <p>13 November: Business Innovation Challenge</p>
+                     <br/>
+                     <p>15 November: IT Code Fair </p>
+                     <br/>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <article class="centre">
-      <br/>
-        <h2>Special Thanks to our Sponsors!</h2>
-
- <!-- PB Caro of doom! 9/5-->
- <!-- Based on caro from code pen -->
-<div class="pbwrapper">
-		<div class="carousel">
-
-        <div>
-        <div class="card">
-          <div class="card-header">
-              <div class="plat"><h3>Platinum Sponsors</h3></div><br/>
-          </div>
-            <div class="card-body">
-              <div class="card-content">
-                  <img src="images/ntgovlogo.png" alt="nt gov logo">
-                <div class="card-text">
-                  <button class="button" onclick ="">
-                    Find out more
-                  </button>
-                </div>
-              </div>
+         </div>
+      </section>
+	  
+	  
+      <article class="centre">
+         <br/>
+         <h2>Special Thanks to our Sponsors!</h2>
+         <!-- PB Caro of doom! 9/5-->
+         <!-- Based on caro from code pen -->
+         <div class="pbwrapper">
+            <div class="carousel">
+               <div>
+                  <div class="card">
+                     <div class="card-header">
+                        <div class="plat">
+                           <h3>Platinum Sponsors</h3>
+                        </div>
+                        <br/>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-content">
+                           <img src="images/ntgovlogo.png" alt="nt gov logo">
+                           <div class="card-text">
+                              <form style="display: inline" action="codefair/sponsors.html" method="get" target="_blank">
+                                 <button class="button" onclick ="">
+                                 Find out more
+                                 </button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="card">
+                     <div class="card-header">
+                        <div class="gold">
+                           <h3>Gold Sponsors</h3>
+                        </div>
+                        <br/>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-content">
+                           <img src="images/interSystemLogo.png" alt="inter sys logo">
+                           <div class="card-text">
+                              <form style="display: inline" action="codefair/sponsors.html" method="get" target="_blank">
+                                 <button class="button" onclick ="">
+                                 Find out more
+                                 </button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="card">
+                     <div class="card-header">
+                        <div class="silver">
+                           <h3>Silver Sponsors</h3>
+                        </div>
+                        <br/>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-content">
+                           <img src="images/kineticLogo.png" alt="kinetic logo">
+                           <div class="card-text">
+                              <form style="display: inline" action="codefair/sponsors.html" method="get" target="_blank">
+                                 <button class="button" onclick ="">
+                                 Find out more
+                                 </button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="card">
+                     <div class="card-header">
+                        <div class="bronze">
+                           <h3>Bronze Sponsors</h3>
+                        </div>
+                        <br/>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-content">
+                           <img src="images/radicalLogo.png" alt="radical logo">
+                           <div class="card-text">
+                              <form style="display: inline" action="codefair/sponsors.html" method="get" target="_blank">
+                                 <button class="button" onclick ="">
+                                 Find out more
+                                 </button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-        </div>
-
-			  <div>
-				<div class="card">
-				  <div class="card-header">
-      				<div class="gold"><h3>Gold Sponsors</h3></div><br/>
-				  </div>
-					  <div class="card-body">
-							<div class="card-content">
-                  <img src="images/interSystemLogo.png" alt="inter sys logo">
-								<div class="card-text">
-                  <button class="button" onclick ="">
-										Find out more
-									</button>
-								</div>
-							</div>
-					  </div>
-				</div>
-			  </div>
-
-        <div>
-				<div class="card">
-				  <div class="card-header">
-								<div class="silver"><h3>Silver Sponsors</h3></div><br/>
-				  </div>
-						<div class="card-body">
-							<div class="card-content">
-                 <img src="images/kineticLogo.png" alt="kinetic logo">
-									<div class="card-text">
-                    <button class="button" onclick ="">
-  										Find out more
-  									</button>
-									</div>
-							</div>
-						</div>
-				</div>
-			  </div>
-
-        <div>
-				<div class="card">
-				  <div class="card-header">
-             <div class="bronze"><h3>Bronze Sponsors</h3></div><br/>
-				  </div>
-						<div class="card-body">
-							<div class="card-content">
-                 <img src="images/radicalLogo.png" alt="radical logo">
-									 <div class="card-text">
-                     <button class="button" onclick ="">
-   										Find out more
-   									</button>
-									</div>
-							</div>
-						</div>
-				</div>
-			  </div>
-		</div>
-</div>
-<br/>
-  </article>
-
-    <footer>
-        <div>
+         </div>
+         <br/>
+      </article>
+      <footer>
+         <div>
             <p>CDU IT Code Fair 2019</p>
             <p>Contact here: xxxx@cdu.com</p>
-        </div>
-
-        <div>
+         </div>
+         <div>
             <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.youtube.com/channel/UCEWii6myqFdcL8eb5PfcLow/playlists?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
             <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
-        </div>
-    </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script id="rendered-js">
-
-//# sourceURL=pen.js
-
-
-	</script>
-	<script src="scripts/main.js"></script>
-</body>
-
-
+         </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script id="rendered-js">//# sourceURL=pen.js</script>
+      <script src="scripts/main.js"></script>
+   </body>
 </html>
