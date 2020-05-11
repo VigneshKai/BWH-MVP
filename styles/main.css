@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 position:relative;
 font-family: "Segoe UI";
-font-size:15;
+font-size:15px;
 background-color:#36393f;
 }
 
@@ -69,7 +69,7 @@ nav img {
 	padding-bottom:207px;
 }
 
-.mainheading h3, {
+.mainheading h3 {
 	margin:auto;
 	padding-bottom:15px;
 	color:white;
@@ -173,7 +173,6 @@ article h2{
 	font-size:35px;
 	margin:0;
 	color:white;
-  frameborder:0;
 }
 
 /*iframe is used to style embbeded youtube videos*/
@@ -287,7 +286,7 @@ height:100%;
 overflow: auto;
 left: 0;
 top: 0;
-display = 'block';
+display:block;
 }
 
 #modal-slideout1{
@@ -317,7 +316,7 @@ height:100%;
 overflow: auto;
 left: 0;
 top: 0;
-display = 'block';
+display: block;
 }
 
 @keyframes slidein {
@@ -571,7 +570,7 @@ width:100%;
 	background-color: #e5e4e2;
 	padding: 4px 0 4px 0;
 	width:100%;
-	align:left;
+
 }
 
 .gold{
@@ -579,7 +578,7 @@ width:100%;
 	background-color: #d4af37;
 	padding: 4px 0 4px 0;
 	width:100%;
-	align:left;
+
 }
 
 .silver{
@@ -587,7 +586,7 @@ width:100%;
 	background-color: #c0c0c0;
 	padding: 4px 0 4px 0;
 	width:100%;
-	align:left;
+
 }
 
 .bronze{
@@ -595,7 +594,7 @@ width:100%;
 	background-color: #b08d57;
 	padding: 4px 0 4px 0;
 	width:100%;
-	align:left;
+
 }
 
 .card-header h3{
