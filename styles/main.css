@@ -41,6 +41,7 @@ nav img {
 	margin: 0;
 }
 
+
 .responsiveNav .icon {
   display: none;
 }
@@ -59,6 +60,7 @@ nav img {
   z-index: 100;
   color:#ffffff;
   Font-size:60px;
+	margin-top:50px;
 	margin-bottom: 1px;
 }
 
@@ -66,7 +68,7 @@ nav img {
 	color:white;
 	Font-size:50px;
 	margin-top: 1px;
-	padding-bottom:207px;
+	padding-bottom:140px;
 }
 
 .mainheading h3 {
@@ -102,8 +104,8 @@ nav img {
 }
 
 /*css for the header in the white box*/
-.wrapperInfo4 h1,
-.wrapperInfo2 h1
+.wrapperInfo4 h2,
+.wrapperInfo2 h2
 {
 	color:white;
 	padding:15px;
@@ -414,8 +416,15 @@ footer div{
 .mainheading h1 {
   z-index: 100;
   color:#ffffff;
-  padding-bottom:100px;
+/*  padding-bottom:80px;*/
   Font-size:60px;
+}
+
+.mainheading p{
+	color:white;
+	Font-size:0px;
+	margin-top: 100px;
+	padding-bottom:50px;
 }
 
 .wrapperInfo2{
@@ -529,24 +538,7 @@ width:100%;
   font-weight: 300;
 }
 
-@media only screen and (min-width: 600px)  {
-.card{
-	flex: 0 1 calc(50% - 1em);
-}
 
-.card-header h3{
-	font-family:Arial;
-	font-size:16px;
-	text-decoration:none;
-	font-style: italic;
-}
-}
-
-@media only screen and (min-width: 768px)  {
-.card{
-	flex: 0 1 calc(50% - 1em);
-}
-}
 
 /* Button Style */
 .button {
@@ -595,7 +587,16 @@ width:100%;
 
 .card-header h3{
 	font-family:Arial;
-	font-size:20px;
+	font-size:18px;
 	text-decoration:none;
 	font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+	.card-header h3{
+		font-family:Arial;
+		font-size:16px;
+		text-decoration:none;
+		font-style: italic;
+}
 }

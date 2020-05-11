@@ -71,6 +71,7 @@ function navRespon() {
   }
 }
 
+// Third Script runs the carousel
 $(document).ready(function () {
   $('.carousel').slick({
     speed: 500,
@@ -88,7 +89,6 @@ $(document).ready(function () {
         // centerMode: true,
       } },
 
-
     {
       breakpoint: 800,
       settings: {
@@ -96,7 +96,6 @@ $(document).ready(function () {
         slidesToScroll: 2,
         dots: true,
         infinite: true } },
-
 
     {
       breakpoint: 480,
@@ -107,7 +106,5 @@ $(document).ready(function () {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000 } }] });
-
-
 
 });
