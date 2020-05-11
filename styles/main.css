@@ -414,7 +414,8 @@ footer div{
 }
 
 .mainheading h1 {
-  z-index: 100;
+	margin-top: 60px;
+	z-index: 100;
   color:#ffffff;
 /*  padding-bottom:80px;*/
   Font-size:60px;
@@ -422,9 +423,9 @@ footer div{
 
 .mainheading p{
 	color:white;
-	Font-size:0px;
-	margin-top: 100px;
-	padding-bottom:50px;
+	Font-size:50px;
+	margin-top: 0px;
+	padding-bottom:110px;
 }
 
 .wrapperInfo2{
