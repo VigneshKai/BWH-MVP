@@ -419,6 +419,7 @@ footer div{
   color:#ffffff;
 /*  padding-bottom:80px;*/
   Font-size:60px;
+	font-family: "Segoe UI";
 }
 
 .mainheading p{
@@ -426,6 +427,7 @@ footer div{
 	Font-size:50px;
 	margin-top: 0px;
 	padding-bottom:110px;
+	font-family: "Segoe UI";
 }
 
 .wrapperInfo2{
