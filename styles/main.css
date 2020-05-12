@@ -501,7 +501,8 @@ footer div{
 	color:white;
 	Font-size:50px;
 	margin-top: 0px;
-	padding-bottom:47px;
+	padding-bottom:0px;
+	margin-bottom:0px;
 }
 
 .wrapperInfo2{
