@@ -155,6 +155,7 @@ article {
   background-image:url("../images/group.png");
   min-height: 500px;
   background-attachment: fixed;
+  background-top:10px;
   background-position: center;
   background-size: cover;
   text-align:center;
