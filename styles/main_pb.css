@@ -1,0 +1,52 @@
+form {
+	position : relative;
+	font-family: "Segoe UI";
+	width: 90%;
+	margin : 0 auto;
+	padding: 1em;
+	box-sizing: border-box;
+
+
+}
+
+legend {
+	font-family:"Segoe UI";
+	color: #000000;
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+	vertical-align: top;
+	color: #0000000;
+}
+
+textarea{
+	width: 55%;
+  margin-left: 10px;
+}
+
+input {
+	width: 55%;
+  margin-left: 10px;
+}
+
+input:focus {
+	background-color: #2f3136;
+	color:#fff;
+ }
+
+textarea:focus{
+	background-color: #2f3136;
+	color:#fff;
+ }
+
+.control {
+  margin: 35px 0;
+
+}
+
+.button_left {
+	 text-align: center;
+}
