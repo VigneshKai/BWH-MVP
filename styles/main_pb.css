@@ -20,31 +20,21 @@ width: 45%;
 	background-color:#2f3136;
 }
 
-.card_1_contact {
-  width:95%;
-  height:500px;
-  text-align:center;
-}
-
-
 .mainheading_contact h1 {
   color:#ffffff;
   Font-size:60px;
-	padding-top:30px;
+	margin-top:0px;
 	margin-bottom: 1px;
+	padding-top: 70px;
+	/* padding and margin required to bring down header */
 }
 
 .mainheading_contact p{
 	color:white;
 	Font-size:50px;
 	margin-top: 1px;
-	padding-bottom:244px;
+	padding-bottom:204px;
 }
-/*
-* {
-	box-sizing: border-box;
-}
-*/
 
 /*-----FORM STYLES------------------------------*/
 input {
