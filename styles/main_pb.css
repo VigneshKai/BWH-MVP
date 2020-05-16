@@ -8,7 +8,9 @@ width: 45%;
 	display:block;
 	width:87%;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #f1f1f1;
+/*	background-color: #36393f; */
+	/* Changes background of */
 }
 
 .wrapperInfo2_contact h2
