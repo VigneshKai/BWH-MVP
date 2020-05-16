@@ -1,3 +1,4 @@
+
 .wrapper_contact{
 margin: 0 auto;
 width: 45%;
@@ -7,7 +8,7 @@ width: 45%;
 	display:block;
 	width:87%;
 	margin: 0 auto;
-	background-color: #f1f1f1;
+	background-color: #fff;
 }
 
 .wrapperInfo2_contact h2
@@ -23,11 +24,11 @@ width: 45%;
   text-align:center;
 }
 
+
 .mainheading_contact h1 {
-  z-index: 100;
   color:#ffffff;
   Font-size:60px;
-	margin-top:50px;
+	padding-top:10px;
 	margin-bottom: 1px;
 }
 
@@ -35,23 +36,25 @@ width: 45%;
 	color:white;
 	Font-size:50px;
 	margin-top: 1px;
-	padding-bottom:274px;
+	padding-bottom:264px;
 }
-
+/*
 * {
 	box-sizing: border-box;
 }
-
+*/
 
 /*-----FORM STYLES------------------------------*/
 input {
 	outline: none;
 	border: none;
+	box-sizing: border-box;
 }
 
 textarea {
   outline: none;
   border: none;
+	box-sizing: border-box;
 }
 
 textarea:focus, input:focus {
@@ -97,6 +100,7 @@ label {
 /*==================================================================
 [ Content container ]*/
 .container-contact100 {
+	box-sizing: border-box;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -115,6 +119,7 @@ label {
   background: #fff;
   border-radius: 3px;
   position: relative;
+	border: 1px solid #e6e6e6;
 }
 
 /*===========TITLE=======================================================
@@ -126,7 +131,7 @@ label {
   line-height: 1.2;
   text-transform: uppercase;
 	background-image: url(../images/form_header.jpg);
-
+box-sizing: border-box;
   width: 100%;
   min-height: 128px;
   position: relative;
@@ -175,6 +180,7 @@ label {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 55px 48px 55px;
+	box-sizing: border-box;
 }
 
 
