@@ -389,14 +389,14 @@ text-align: center;
 /*---------------------------------------------*/
 @media (max-width: 576px) {
 
-/*Might need to adjust here*/
+/*Might need to adjust here
 	.mainheading_contact p{
 		color:white;
 		Font-size:50px;
 		margin-top: 0px;
 		padding-bottom:0px;
 }
-
+*/
 
   .btn-hide-validate {
     right: 10px;
