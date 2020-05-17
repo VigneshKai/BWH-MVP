@@ -1,3 +1,22 @@
+.wrapper_reg {
+  width: 45%;
+/*border: solid 1px #000;*/
+  padding-left:38px;
+	margin-top: 0px;
+}
+
+
+.card_reg img{
+	max-width: 100%;
+    max-height: 250px;
+}
+.card_reg {
+  padding: 22px 0px 22px 10px;
+	/*padding: 22px;*/
+  width:100%;
+  text-align:center;
+  background-color: #f1f1f1;
+}
 
 .wrapper_contact{
 margin: 0 auto;
@@ -8,7 +27,8 @@ width: 45%;
 	display:block;
 	width:87%;
 	margin: 0 auto;
-	background-color: #f1f1f1;
+	background-color: #fff;
+/*	background-color: #f1f1f1;*/
 /*	background-color: #36393f; */
 	/* Changes background of */
 }
@@ -49,7 +69,13 @@ textarea {
 	box-sizing: border-box;
 }
 
-textarea:focus, input:focus {
+select {
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+textarea:focus, input:focus, select:focus {
   border-color: transparent !important;
 }
 
@@ -57,6 +83,11 @@ input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; }
 input:focus::-moz-placeholder { color:transparent; }
 input:focus:-ms-input-placeholder { color:transparent; }
+
+select:focus::-webkit-input-placeholder { color:transparent; }
+select:focus:-moz-placeholder { color:transparent; }
+select:focus::-moz-placeholder { color:transparent; }
+select:focus:-ms-input-placeholder { color:transparent; }
 
 textarea:focus::-webkit-input-placeholder { color:transparent; }
 textarea:focus:-moz-placeholder { color:transparent; }
@@ -67,6 +98,11 @@ input::-webkit-input-placeholder { color: #adadad;}
 input:-moz-placeholder { color: #adadad;}
 input::-moz-placeholder { color: #adadad;}
 input:-ms-input-placeholder { color: #adadad;}
+
+select::-webkit-input-placeholder { color: #adadad;}
+select:-moz-placeholder { color: #adadad;}
+select::-moz-placeholder { color: #adadad;}
+select:-ms-input-placeholder { color: #adadad;}
 
 textarea::-webkit-input-placeholder { color: #adadad;}
 textarea:-moz-placeholder { color: #adadad;}
@@ -104,6 +140,7 @@ label {
   align-items: center;
   position: relative;
   z-index: 10;
+	margin: 0 auto;
 }
 
 .wrap-contact100 {
@@ -116,13 +153,45 @@ label {
 
 /*===========TITLE=======================================================
 */
+
+.register-form-title {
+	font-family: "Segoe UI", Arial;
+	font-size: 30px;
+	color: #fff;
+	line-height: 1.2;
+	text-transform: uppercase;
+	background-image: url(../images/register_form.jpg);
+  box-sizing: border-box;
+	width: 100%;
+	min-height: 128px;
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	overflow: hidden;
+
+	padding: 30px 15px 30px 15px;
+}
+
+
 .contact100-form-title {
   font-family: "Segoe UI", Arial;
   font-size: 30px;
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
-	background-image: url(../images/form_header.jpg);
+	background-image: url(../images/form_header1.jpg);
 box-sizing: border-box;
   width: 100%;
   min-height: 128px;
@@ -385,7 +454,21 @@ text-align: center;
 }
 
 /*---------------------------------------------*/
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
+
+.wrapper_reg {
+	margin:0 auto;
+	width: 100%;
+	padding-left: 0px;
+}
+
+.card_reg {
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	background-color: #f1f1f1;
+	padding-left: 0px;
+}
 
 /*Might need to adjust here
 	.mainheading_contact p{
@@ -396,10 +479,60 @@ text-align: center;
 }
 */
 
-  .btn-hide-validate {
-    right: 10px;
-  }
-  .true-validate::after {
-    right: 10px;
-  }
+.btn-hide-validate {
+  right: 10px;
+}
+
+.true-validate::after {
+  right: 10px;
+}
+}
+
+/*-----FORM VAL FOR REG AND CONTACT WITH JS----------------------------------------*/
+.dd{
+border: 1px solid #15115E;
+}
+
+.red{
+border: 1px solid #fa4251;
+}
+
+/*---------------------------------------------*/
+@media only screen
+  and (min-width: 600px)
+  and (max-width: 768px) {
+
+	.wrapper_reg {
+		margin-top: 20px;
+		width: 87%;
+		padding-left: 0px;
+	}
+
+	.card_reg {
+		width:95%;
+		margin:0 auto;
+		text-align: center;
+		background-color: #f1f1f1;
+	}
+
+}
+
+/*iPads wide screen */
+@media only screen
+  and (min-width: 769px)
+  and (max-width: 1024px) {
+
+	.wrapper_reg {
+		margin-top: 20px;
+		width: 71%;
+		padding-left: 0px;
+	}
+
+	.card_reg {
+		width:87%;
+		margin:0 auto;
+		text-align: center;
+		background-color: #f1f1f1;
+	}
+
 }

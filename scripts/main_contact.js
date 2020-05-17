@@ -12,10 +12,10 @@
             else {
                 $(this).parent().addClass('true-validate');
             }
-        })    
+        })
     })
-  
-  
+
+
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
@@ -57,6 +57,9 @@
     function showValidate(input) {
         var thisAlert = $(input).parent();
 
+        var event = $("#event");
+        var thisSelect = $("select").parent();
+
         $(thisAlert).addClass('alert-validate');
 
         $(thisAlert).append('<span class="btn-hide-validate">&#xf136;</span>')
@@ -65,6 +68,17 @@
                hideValidate(this);
             });
         });
+
+        if (event.val() == "0"){
+        /*  alert("Please select an event option!");*/
+            $(thisSelect).addClass('alert-validate');
+            $(thisSelect).append('<span class="btn-hide-validate">&#xf136;</span>')
+            $('.btn-hide-validate').each(function(){
+                $(this).on('click',function(){
+                   hideValidate(this);
+                });
+            });
+          }
     }
 
     function hideValidate(input) {
@@ -72,6 +86,29 @@
         $(thisAlert).removeClass('alert-validate');
         $(thisAlert).find('.btn-hide-validate').remove();
     }
- 
+
+/*
+$(function () {
+$("#btnSubmit").click(function () {
+var event = $("#event");
+var thisAlert = $("select").parent();
+
+if (event.val() == "0"){
+  alert("Please select an event option!");
+    $(thisAlert).addClass('alert-validate');
+
+               return false;
+           }
+           alert( this.value );
+           return true;
+       });
+   });
+*/
+
+/*
+    $('select').on('change', function() {
+  alert( this.value );
+});
+*/
 
 })(jQuery);
