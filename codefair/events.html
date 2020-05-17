@@ -1,34 +1,35 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
-    <title>IT CODEFAIR|2020|Events</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CDU CodeFair 2020">
-    <link rel="stylesheet" type="text/css" href="../styles/main.css">
-    <script src="../scripts/main.js"></script>
-    <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <nav class="responsiveNav" id="responsiveNav">
-        <a href="../index.html"><img src="../images/cdu-logo.png" class="navLogo" alt='CDU LOGO'></a>
-        <a href="../index.html"><img src="../images/codefair-logo.png" class="navLogo" alt='IT CODEFAIR LOGO'></a>
-        <a href="challenges.html" class="active">CHALLENGES</a>
-        <a href="competitions.html">COMPETITIONS</a>
-        <a href="events.html">EVENTS</a>
-        <a href="forschools.html">FOR SCHOOLS</a>
-        <a href="forindustry.html">FOR INDUSTRY</a>
-		<a href="sponsors.html">SPONSORS</a>
-        <a href="https://itcodefair.cdu.edu.au/about">ABOUT</a>
-        <a href="https://itcodefair.cdu.edu.au/resources">RESOURCES</a>
-        <!--Three bars that trigger the java script in mobile view-->
-        <a href="javascript:void(0);" class="icon" onclick="navRespon()">
-            <i class="fa fa-bars"></i></a>
-    </nav>
+   <head>
+      <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
+      <title>IT CODEFAIR|2020|Challenges</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="CDU CodeFair 2020">
+      <link rel="stylesheet" type="text/css" href="../styles/main.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+      <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <nav class="responsiveNav" id="responsiveNav">
+         <a href="../index.html"><img src="../images/cdu-logo.png" class="navLogo" alt='CDU LOGO'></a>
+         <a href="../index.html"><img src="../images/codefair-logo.png" class="navLogo" alt='IT CODEFAIR LOGO'></a>
+         <a href="challenges.html" class="active">CHALLENGES</a>
+         <a href="competitions.html">COMPETITIONS</a>
+         <a href="events.html">EVENTS</a>
+         <a href="forschools.html">FOR SCHOOLS</a>
+         <a href="forindustry.html">FOR INDUSTRY</a>
+         <a href="sponsors.html">SPONSORS</a>
+         <a href="https://itcodefair.cdu.edu.au/about">ABOUT</a>
+         <a href="https://itcodefair.cdu.edu.au/resources">RESOURCES</a>
+		  <a href="register.html">REGISTER</a>
+         <a href="contact.html">CONTACT</a>
+         <!--Three bars that trigger the java script in mobile view-->
+         <a href="javascript:void(0);" class="icon" onclick="navRespon()">
+         <i class="fa fa-bars"></i></a>
+      </nav>
     <header class=mainheading>
         <img src="../images/PF3NTE.jpg" class="codebg" alt='codebg'>
         <h1>EVENTS<p></br><br></p></h1>
@@ -44,7 +45,7 @@
                 <h3>Employer Speed Dating</h3>
                 <p>Industry Employer Speed Dating provides graduating students with an opportunity to meet local employers to kick-start their career.
                     <p>
-                        <form style="display: inline" action="https://itcodefair.cdu.edu.au/events/employer-speed-dating" method="get" target="_blank">
+                        <form action="https://itcodefair.cdu.edu.au/events/employer-speed-dating" method="get" target="_blank">
                             <button class="collapsible">See more</button>
                         </form>
 
@@ -57,7 +58,7 @@
                 <h3>Cyber Security Workshop</h3>
                 <p>Workshop provides a hands on experience on how to protect your self digitally. We needs more kids to select cybersecurity as a career. Our workshop is tailored around the current themes for digitally engaged kids.
                     <p>
-                        <form style="display: inline" action="https://itcodefair.cdu.edu.au/events/cyber-security-workshops" method="get" target="_blank">
+                        <form action="https://itcodefair.cdu.edu.au/events/cyber-security-workshops" method="get" target="_blank">
                             <button class="collapsible">See more</button>
                         </form>
 
@@ -70,7 +71,7 @@
                 <h3>Academic Excellence Awards</h3>
                 <p>Join us to recognise high achieving CDU IT students from around Australia. Supported by the NT Department of Corporate Information Services. $100 for the top student in each IT unit. Awards begin the Code Fair.
                     <p>
-                        <form style="display: inline" action="https://itcodefair.cdu.edu.au/events/academic-excellence-awards" method="get" target="_blank">
+                        <form action="https://itcodefair.cdu.edu.au/events/academic-excellence-awards" method="get" target="_blank">
                             <button class="collapsible">See more</button>
                         </form>
 
@@ -79,46 +80,164 @@
 
     </section>
 
-    <article>
-        <h1>Special Thanks to our Sponsors!</h1>
-        <div class='row'>
-            <h2>Platnium Sponsors</h2>
-            <img class='PlatImg' src='../images/ntgovlogo.png' alt='Northern Territory Government'>
-            <img class='PlatImg' src='../images/interSystemLogo.png' alt='inter System Logo'>
-        </div>
-        <div class='row'>
-            <h2>Gold Sponsors</h2>
-            <img class='GoldImg' src='../images/ibmLogo.png' alt='inter System Logo'>
-            <h2>Silver Sponsors</h2>
-            <img class='SilverImg' src='../images/kineticLogo.png' alt='kinetic IT'>
-            <img class='SilverImg' src='../images/NEC-NutanixLogo.png' alt='Nec Nutanix'>
-            <img class='SilverImg' src='../images/servicenowLogo.png' alt='Service Now'>
-        </div>
-        <div class='row'>
-            <h2>Bronze Sponsors</h2>
-            <img class='BronzeImg' src='../images/jackadderLogo.png' alt='jackadder Technology'>
-            <img class='BronzeImg' src='../images/radicalLogo.png' alt='Radical Systems'>
-            <img class='BronzeImg' src='../images/acsLogo.png' alt='Australian Computer Society'>
-            <img class='BronzeImg' src='../images/aisaLogo.png' alt='Australia Information Security Association'>
-            <img class='BronzeImg' src='../images/wunaLogo.png' alt='WUNA'>
-            <img class='BronzeImg' src='../images/dxcLogo.png' alt='DXC Technology'>
-            <img class='BronzeImg' src='../images/integralLogo.png' alt='integral Digital'>
-            <img class='BronzeImg' src='../images/hpLogo.png' alt='Helwett Packard'>
-        </div>
-    </article>
+        <article class="centre">
+           <br/>
 
-    <footer>
-        <div>
-            <p>CDU IT Code Fair 2019</p>
-            <p>Contact here: xxxx@cdu.com</p>
-        </div>
+           <h2>Special Thanks to our Sponsors!</h2>
+           <div class="pbwrapper">
+              <div class="carousel">
+                 <div>
+                    <div class="card">
+                       <div class="card-header">
+                          <div class="plat">
+                             <h3>Platinum Sponsors</h3>
+                          </div>
+                          <br/>
+                       </div>
+                       <div class="card-body">
+                          <div class="card-content">
+                             <img src="../images/ntgovlogo.png" alt="nt gov logo">
+                             <div class="card-text">
+                                <form style="display: inline" action="sponsors.html" method="get" target="_blank">
+                                   <button class="button" onclick ="">
+                                        Find out more
+                                  </button>
+                                </form>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div>
+                    <div class="card">
+                       <div class="card-header">
+                          <div class="gold">
+                             <h3>Gold Sponsors</h3>
+                          </div>
+                          <br/>
+                       </div>
+                       <div class="card-body">
+                          <div class="card-content">
+                             <img src="../images/interSystemLogo.png" alt="inter sys logo">
+                             <div class="card-text">
+                                <form action="sponsors.html" method="get" target="_blank">
+                                   <button class="button" onclick ="">
+                                   Find out more
+                                   </button>
+                                </form>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div>
+                    <div class="card">
+                       <div class="card-header">
+                          <div class="silver">
+                             <h3>Silver Sponsors</h3>
+                          </div>
+                          <br/>
+                       </div>
+                       <div class="card-body">
+                          <div class="card-content">
+                             <img src="../images/kineticLogo.png" alt="kinetic logo">
+                             <div class="card-text">
+                                <form action="sponsors.html" method="get" target="_blank">
+                                   <button class="button" onclick ="">
+                                   Find out more
+                                   </button>
+                                </form>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div>
+                    <div class="card">
+                       <div class="card-header">
+                          <div class="bronze">
+                             <h3>Bronze Sponsors</h3>
+                          </div>
+                          <br/>
+                       </div>
+                       <div class="card-body">
+                          <div class="card-content">
+                             <img src="../images/radicalLogo.png" alt="radical logo">
+                             <div class="card-text">
+                                <form action="sponsors.html" method="get" target="_blank">
+                                  <button class="button" onclick ="">
+                                  Find out more
+                                  </button>
+                                </form>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <br/>
+        </article>
 
-        <div>
-            <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://www.youtube.com/channel/UCEWii6myqFdcL8eb5PfcLow/playlists?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
-            <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
-        </div>
-    </footer>
+        <footer>
+           <div>
+              <p>CDU IT Code Fair 2019</p>
+              <p>Contact here: xxxx@cdu.com</p>
+           </div>
+           <div>
+              <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook" target="_blank"></a>
+              <a href="https://www.youtube.com/channel/UCEWii6myqFdcL8eb5PfcLow/playlists?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
+              <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
+           </div>
+        </footer>
+
+          <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        	<script src="vendor/animsition/js/animsition.min.js"></script>
+        	<script src="vendor/select2/select2.min.js"></script>
+        	<script src="../scripts/main_contact.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script id="rendered-js"> /* dont know how to get this javascript to work externally for now*/
+           $(document).ready(function () {
+             $('.carousel').slick({
+               speed: 500,
+               slidesToShow: 3,
+               slidesToScroll: 1,
+               autoplay: true,
+               autoplaySpeed: 2000,
+               dots: true,
+               centerMode: true,
+               responsive: [{
+                 breakpoint: 1024,
+                 settings: {
+                   slidesToShow: 3,
+                   slidesToScroll: 1
+                   // centerMode: true,
+                 } },
+
+               {
+                 breakpoint: 800,
+                 settings: {
+                   slidesToShow: 2,
+                   slidesToScroll: 2,
+                   dots: true,
+                   infinite: true } },
+
+               {
+                 breakpoint: 480,
+                 settings: {
+                   slidesToShow: 1,
+                   slidesToScroll: 1,
+                   dots: true,
+                   infinite: true,
+                   autoplay: true,
+                   autoplaySpeed: 2000 } }] });
+
+           });
+        </script>
+        <script src="../scripts/main.js"></script>
 
 </body>
 

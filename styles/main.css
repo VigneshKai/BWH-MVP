@@ -99,13 +99,23 @@ nav img {
     margin-right: auto;
 	background-color:white;
 	padding-bottom:625px;
+}
+.wrapperInfo1{
+	display:block;
+	width:87%;
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+	background-color:white;
+	padding-bottom:600px;
 
 
 }
 
 /*css for the header in the white box*/
 .wrapperInfo4 h2,
-.wrapperInfo2 h2
+.wrapperInfo2 h2,
+.wrapperInfo1 h2
 {
 	color:white;
 	padding:15px;
