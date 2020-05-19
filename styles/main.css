@@ -100,6 +100,7 @@ nav img {
 	background-color:white;
 	padding-bottom:625px;
 }
+/*changed wrapperinfo to display white background box for 1 cards*/
 .wrapperInfo1{
 	display:block;
 	width:87%;
@@ -121,7 +122,7 @@ nav img {
 	padding:15px;
 	background-color:#2f3136;
 }
-
+/* card styling for one card when they are next to each other*/
 .wrapper {
   float: left;
   width: 45%;
@@ -129,7 +130,7 @@ nav img {
   padding-left:38px;
 
 }
-
+/* card styling for one card*/
 .wrapper3 {
   float: left;
   width: 95%;
