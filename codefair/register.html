@@ -7,10 +7,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="CDU CodeFair 2020">
       <link rel="stylesheet" type="text/css" href="../styles/main.css">
+            <link rel="stylesheet" type="text/css" href="../styles/main_pb.css">
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
       <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--Form links-->
+      <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+      <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+      <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+
    </head>
    <body>
       <nav class="responsiveNav" id="responsiveNav">
@@ -28,42 +36,108 @@
          <a href="javascript:void(0);" class="icon" onclick="navRespon()">
          <i class="fa fa-bars"></i></a>
       </nav>
-      <header class=mainheading>
+      <header class="mainheading_contact">
          <img src="../images/PF3NTE.jpg" class="codebg" alt='codebg'>
+
          <h1>
-            CHALLENGES
-            <p></br><br></p>
+            REGISTER
          </h1>
+         <p></p>
       </header>
 
-      <section class='wrapperInfo2'>
-         <!--wrapperInfo is used for ease of CSS styling, Info cards are seperate to properly work with Javascript-->
-         <h2> This Year's Challenges</h2>
-         <div class="wrapper">
-            <div class="card_1">
-               <img class='infoImg' src='challenges\BIC-2018.jpg' alt='Come to the Codefair'>
-               <h3>Business Innovation Challenge</h3>
-               <form style="display: inline" action="https://itcodefair.cdu.edu.au/challenges/business-innovation-challenge" method="get" target="_blank">
-                  <button class="collapsible">See more</button>
-               </form>
+      <section class='wrapperInfo2_contact'>
+         <!--wrapperInfo is used for ease of CSS styling, Info cards are separate to properly work with Java-script-->
+       <h2>Sign up for events</h2>
+<br/>
+      <!--Form code, include jquery for validation -->
+      <!--Form original https://uicookies.com/beautiful-css-forms/-->
+       <div class="container-contact100">
+         <div class="wrap-contact100">
+            <div class="register-form-title">
+              <span>Register</span>
             </div>
-         </div>
 
-         <div class="wrapper">
-            <div class="card_1">
-               <img class='infoImg' src='challenges/CSC-2018.jpg' alt='Come to the Codefair'>
-               <h3>Cyber Security Challenge</h3>
-               <form style="display: inline" action="https://itcodefair.cdu.edu.au/challenges/cyber-security-challenge" method="get" target="_blank">
-                  <button class="collapsible">See more</button>
-               </form>
-            </div>
-         </div>
+            <form class="contact100-form validate-form">
+              <div class="wrap-input100 validate-input">
+                <input id="name" class="input100" type="text" name="name" placeholder="Full name">
+                <span class="focus-input100"></span>
+                <label class="label-input100" for="name">
+                  <span class="lnr lnr-user m-b-2"></span>
+                </label>
+              </div>
+
+              <div class="wrap-input100 validate-input">
+                <input id="stu_id" class="input100" type="text" name="stu_id" placeholder="Eg. s000000">
+                <span class="focus-input100"></span>
+                <label class="label-input100" for="stu_id">
+                  <span class="lnr lnr-graduation-hat"></span>
+                </label>
+              </div>
+
+              <div class="wrap-input100 validate-input">
+                <span class="focus-input100"></span>
+                <label class="label-input100" for="event">
+                  <span class="lnr lnr-code"></span>
+                </label>
+                <select id="event" class="input100" name="event">
+                  <option value="0">Choose event...</option>
+                  <option value="1">HTML5 Challenge</option>
+                  <option value="2">PHP Bonanza</option>
+                  <option value="3">Python For All</option>
+                  <option value="4">Java of Doom</option>
+                </select>
+              </div>
+
+              <div class="wrap-input100 validate-input">
+                <input id="phone" class="input100" type="text" name="phone" placeholder="Eg. 0000000000">
+                <span class="focus-input100"></span>
+                <label class="label-input100" for="phone">
+                  <span class="lnr lnr-smartphone m-b-2"></span>
+                </label>
+              </div>
+
+              <div class="wrap-input100 validate-input">
+                <textarea id="message" class="input100" name="message" placeholder="Additional details..."></textarea>
+                <span class="focus-input100"></span>
+                <label class="label-input100 rs1" for="message">
+                  <span class="lnr lnr-bubble"></span>
+                </label>
+              </div>
+
+              <div class="container-contact100-form-btn">
+                <button class="collapsible" id="btnSubmit">
+                  Submit
+                </button>
+              </div>
+            </form>
+
+          </div>
+
+          <div class="wrapper_reg">
+             <div class="card_reg">
+
+                <img class='infoImg' src='../images/reg2.jpg' alt='Come to the Codefair'>
+                <h3>Get involved and...</h3>
+             </div>
+
+              <br/>
+
+             <div class="card_reg">
+
+                <img class='infoImg' src='../images/reg1.jpg' alt='Come to the Codefair'>
+                <h3>get registered today!</h3>
+             </div>
+           </div>
+
+    </div>
+          <br/><br/>
       </section>
-
-
+        <br/><br/>
       <article class="centre">
          <br/>
+
          <h2>Special Thanks to our Sponsors!</h2>
+         <!--Included carousel code-->
          <div class="pbwrapper">
             <div class="carousel">
                <div>
@@ -80,9 +154,9 @@
                            <div class="card-text">
                               <form style="display: inline" action="sponsors.html" method="get" target="_blank">
                                  <button class="button" onclick ="">
+                                      Find out more
+                                </button>
                               </form>
-                              Find out more
-                              </button>
                            </div>
                         </div>
                      </div>
@@ -145,10 +219,10 @@
                            <img src="../images/radicalLogo.png" alt="radical logo">
                            <div class="card-text">
                               <form style="display: inline" action="sponsors.html" method="get" target="_blank">
-                              <button class="button" onclick ="">
-                              Find out more
-                              </button>
-                              </form
+                                <button class="button" onclick ="">
+                                Find out more
+                                </button>
+                              </form>
                            </div>
                         </div>
                      </div>
@@ -170,6 +244,12 @@
             <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
          </div>
       </footer>
+        <!--Form links-->
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+        <script src="vendor/select2/select2.min.js"></script>
+        <script src="../scripts/main_contact.js"></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -212,5 +292,6 @@
          });
       </script>
       <script src="../scripts/main.js"></script>
-   </body>
+
+ </body>
 </html>
