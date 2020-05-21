@@ -118,7 +118,8 @@ nav img {
 	margin-left: auto;
     margin-right: auto;
 	background-color:white;
-	padding-bottom:600px;
+	overflow:hidden;
+	padding-bottom:15px;
 
 
 }
@@ -132,6 +133,7 @@ nav img {
 	color:white;
 	padding:15px;
 	background-color:#2f3136;
+	margin:0;
 }
 /* card styling for one card when they are next to each other*/
 .wrapper {
@@ -221,7 +223,15 @@ iframe{
 	max-width: 100%;
     max-height: 500px;
 	float:left;
+	max-height: 400px;
+	padding:10px;
 }
+
+.card_3 ul{
+display: table-cell;
+
+}
+
 .card_3 {
   padding: 16px;
   width:95%;
@@ -526,7 +536,7 @@ footer div{
 }
 
 /*@media screen is used to make the website more mobile friendly, making the cards fit to size and the nav to hide the a links */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .wrapper {
   float: left;
   width: 100%;
@@ -545,7 +555,8 @@ footer div{
 	margin-top: 60px;
 	z-index: 100;
   color:#ffffff;
-  Font-size:60px;
+  Font-size:13vw;
+  padding-top:10px;
 }
 
 .mainheading p{
@@ -583,7 +594,6 @@ footer div{
 	width: 100%;
 	display: block;
 	margin-bottom: 0px;
-	padding-bottom:555px;
 
   }
 .wrapperInfo {
@@ -622,19 +632,24 @@ footer div{
 .card_3 img{
 	max-width: 100%;
     max-height: 225px;
-	margin-right:55px;
-	margin-left:38px;
+	margin: auto;
+    display: block;
+	float: none;
 	
 }
 .card_3 {
   padding:5px;
   width:95%;
-  height:500px;
+  height:auto;
   text-align:center;
   font-size:15px;
   background-color: #f1f1f1;
   margin:auto;
   
+}
+
+.card_3 ul{
+	display: block;
 }
 
 .modal-content{
