@@ -604,8 +604,9 @@ footer div{
 .card_2 img{
 	max-width: 100%;
     max-height: 225px;
-	margin-right:55px;
-	margin-left:38px;
+	margin-right:100px;
+	padding-left:15%;
+	float:center;
 }
 
 .card_2 {
