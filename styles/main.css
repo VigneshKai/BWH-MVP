@@ -76,7 +76,17 @@ nav img {
 	padding-bottom:15px;
 	color:white;
 }
+.wrapperInfoIndex{
+	display:block;
+	width:87%;
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+	background-color:white;
+	padding-bottom:1200px;
 
+
+}
 
 /*changed wrapperinfo to display white background box for 4 cards*/
 .wrapperInfo4{
@@ -86,7 +96,7 @@ nav img {
 	margin-left: auto;
     margin-right: auto;
 	background-color:white;
-	padding-bottom:1250px;
+	padding-bottom:1000px;
 
 
 }
@@ -116,7 +126,8 @@ nav img {
 /*css for the header in the white box*/
 .wrapperInfo4 h2,
 .wrapperInfo2 h2,
-.wrapperInfo1 h2
+.wrapperInfo1 h2,
+.wrapperInfoIndex h2
 {
 	color:white;
 	padding:15px;
@@ -201,7 +212,7 @@ iframe{
 .card_2 {
   padding: 16px;
   width:95%;
-  height:500px;
+  height:400px;
   text-align:left;
   font-size:20px;
   background-color: #f1f1f1;
@@ -546,25 +557,33 @@ footer div{
 }
 
 .wrapperInfo2{
-	   width: 100%;
+	width: 100%;
     display: block;
     margin-bottom: 0px;
-	padding-bottom:1180px;
+	padding-bottom:985px;
 }
 
 .wrapperInfo4{
 	width: 100%;
-  display: block;
-  margin-bottom: 0px;
+	display: block;
+	margin-bottom: 0px;
 	padding-bottom:1650px;
 
   }
+.wrapperInfoIndex{
+	width: 100%;
+  display: block;
+  margin-bottom: 0px;
+	padding-bottom:1950px;
+
+
+}
   
   .wrapperInfo1{
 	width: 100%;
   display: block;
   margin-bottom: 0px;
-	padding-bottom:625px;
+	padding-bottom:555px;
 
   }
 .wrapperInfo {
@@ -577,7 +596,7 @@ footer div{
 .card_1 {
   padding: 5px;
   width:95%;
-  height:550px;
+  height:450px;
   margin:auto;
   text-align: center;
   background-color: #f1f1f1;
@@ -588,6 +607,7 @@ footer div{
 	padding-left:45px;
 	float:left;
 }
+
 .card_2 {
   padding: 5px;
   width:95%;
