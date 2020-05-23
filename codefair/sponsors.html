@@ -1,17 +1,25 @@
 <!doctype html>
 <html lang="en">
+   <head>
+      <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
+      <title>IT CODEFAIR|2020|Challenges</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="CDU CodeFair 2020">
+      <link rel="stylesheet" type="text/css" href="../styles/main.css">
+            <link rel="stylesheet" type="text/css" href="../styles/main_pb.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+      <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<head>
-    <!--Head of the page, this contains the NAV Bar so it can be seperate from the body css tags-->
-    <title>IT CODEFAIR|2020|Events</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CDU CodeFair 2020">
-    <link rel="stylesheet" type="text/css" href="../styles/main.css">
-    <script src="../scripts/main.js"></script>
-    <!--This style sheet was provied by w3schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav it is used to show the three nav bars when in mobile view-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+      <!--Form links-->
+      <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+      <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+      <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+
+   </head>
 
 <body>
     <nav class="responsiveNav" id="responsiveNav">
@@ -30,45 +38,108 @@
             <i class="fa fa-bars"></i></a>
     </nav>
 
-    <article class = sponsorsold>
-        <h1>Special Thanks to our Sponsors!</h1>
-        <div class='row'>
-            <h2>Platnium Sponsors</h2>
-            <img class='PlatImg' src='../images/ntgovlogo.png' alt='Northern Territory Government'>
-            <img class='PlatImg' src='../images/interSystemLogo.png' alt='inter System Logo'>
-        </div>
-        <div class='row'>
-            <h2>Gold Sponsors</h2>
-            <img class='GoldImg' src='../images/ibm.png' alt='inter System Logo'>
-            <h2>Silver Sponsors</h2>
-            <img class='SilverImg' src='../images/kineticLogo.png' alt='kinetic IT'>
-            <img class='SilverImg' src='../images/NEC-NutanixLogo.png' alt='Nec Nutanix'>
-            <img class='SilverImg' src='../images/servicenowLogo.png' alt='Service Now'>
-        </div>
-        <div class='row'>
-            <h2>Bronze Sponsors</h2>
-            <img class='BronzeImg' src='../images/jackadderLogo.png' alt='jackadder Technology'>
-            <img class='BronzeImg' src='../images/radicalLogo.png' alt='Radical Systems'>
-            <img class='BronzeImg' src='../images/acsLogo.png' alt='Australian Computer Society'>
-            <img class='BronzeImg' src='../images/aisaLogo.png' alt='Australia Information Security Association'>
-            <img class='BronzeImg' src='../images/wunaLogo.png' alt='WUNA'>
-            <img class='BronzeImg' src='../images/dxcLogo.png' alt='DXC Technology'>
-            <img class='BronzeImg' src='../images/integralLogo.png' alt='integral Digital'>
-            <img class='BronzeImg' src='../images/hpLogo.png' alt='Helwett Packard'>
-        </div>
+    <article class="centre">
+       <br/>
+
+       <h2>Special Thanks to our Sponsors!</h2>
+
+       <div class="pbwrapper">
+
+                <div class="card">
+                   <div class="card-header">
+                      <div class="plat">
+                         <h3>Platinum Sponsors</h3>
+                      </div>
+                      <br/>
+                   </div>
+                   <div class="card-body">
+                      <div class="card-content">
+                        <img class='PlatImg' src='../images/ntgovlogo.png' alt='Northern Territory Government'>
+                        <img class='PlatImg' src='../images/interSystemLogo.png' alt='inter System Logo'>
+                      </div>
+                   </div>
+                </div>
+
+
+
+                <div class="card">
+                   <div class="card-header">
+                      <div class="gold">
+                         <h3>Gold Sponsors</h3>
+                      </div>
+                      <br/>
+                   </div>
+                   <div class="card-body">
+                      <div class="card-content">
+                             <img class='GoldImg' src='../images/ibm.png' alt='IBM Logo'>
+                      </div>
+                   </div>
+                </div>
+
+
+
+                <div class="card">
+                   <div class="card-header">
+                      <div class="silver">
+                         <h3>Silver Sponsors</h3>
+                      </div>
+                      <br/>
+                   </div>
+                   <div class="card-body">
+                      <div class="card-content">
+                        <img class='SilverImg' src='../images/kineticLogo.png' alt='kinetic IT'>
+                        <img class='SilverImg' src='../images/NEC-NutanixLogo.png' alt='Nec Nutanix'>
+                        <img class='SilverImg' src='../images/servicenowLogo.png' alt='Service Now'>
+                      </div>
+                   </div>
+                </div>
+
+
+
+                <div class="card">
+                   <div class="card-header">
+                      <div class="bronze">
+                         <h3>Bronze Sponsors</h3>
+                      </div>
+                      <br/>
+                   </div>
+                   <div class="card-body">
+                      <div class="card-content">
+                        <img class='BronzeImg' src='../images/jackadderLogo.png' alt='jackadder Technology'>
+                        <img class='BronzeImg' src='../images/radicalLogo.png' alt='Radical Systems'>
+                        <img class='BronzeImg' src='../images/acsLogo.png' alt='Australian Computer Society'>
+                        <img class='BronzeImg' src='../images/aisaLogo.png' alt='Australia Information Security Association'>
+                        <img class='BronzeImg' src='../images/wunaLogo.png' alt='WUNA'>
+                        <img class='BronzeImg' src='../images/dxcLogo.png' alt='DXC Technology'>
+                        <img class='BronzeImg' src='../images/integralLogo.png' alt='integral Digital'>
+                        <img class='BronzeImg' src='../images/hpLogo.png' alt='Helwett Packard'>
+                      </div>
+                   </div>
+                </div>
+
+
+       </div>
+
     </article>
 
     <footer>
-        <div>
-            <p>CDU IT Code Fair 2019</p>
-            <p>Contact here: xxxx@cdu.com</p>
-        </div>
 
-        <div>
-            <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://www.youtube.com/channel/UCEWii6myqFdcL8eb5PfcLow/playlists?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
-            <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
-        </div>
+
+      <div>
+          <p>CDU IT Code Fair 2019</p>
+          <p>Contact here: xxxx@cdu.com</p>
+          <p>Paul Burke S259217 |
+            Raymond Tran S301064 |
+            Vigneshwaran Kailaivasan S301119 |
+            Tommy Lay S301021</p>
+      </div>
+
+      <div>
+          <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://www.youtube.com/channel/UCEWii6myqFdcL8eb5PfcLow/playlists?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
+          <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram" target="_blank"></a>
+      </div>
+
     </footer>
 
 </body>
