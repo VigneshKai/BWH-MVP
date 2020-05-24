@@ -278,10 +278,10 @@ display: table-cell;
 	text-decoration:none;
 	text-shadow:1px 4px 6px #0f0e0f;
 }
-.collapsible :hover {
+.collapsible:hover {
 	background-color:#575959;
 }
-.collapsible :active {
+.collapsible:active {
 	position:relative;
 	top:1px;
 }
