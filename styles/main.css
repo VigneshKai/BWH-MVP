@@ -55,13 +55,21 @@ nav img {
 	top:0px;
 }
 
-/*changed top out of it to get rid of weird padding */
-.mainheading h1 {
+/*Title of page*/
+.mainheading h1,
+.mainheadingIndex h1 {
   z-index: 100;
   color:#ffffff;
   Font-size:60px;
 	margin-top:50px;
 	margin-bottom: 1px;
+}
+/* paragraph css used to properly space elements*/
+.mainheadingIndex p{
+	color:white;
+	Font-size:50px;
+	margin-top: 1px;
+	padding-bottom:137px;
 }
 
 .mainheading p{
@@ -71,37 +79,8 @@ nav img {
 	padding-bottom:140px;
 }
 
-.mainheading h3 {
-	margin:auto;
-	padding-bottom:15px;
-	color:white;
-}
-
-.mainheadingIndex h1 {
-  z-index: 100;
-  color:#ffffff;
-  Font-size:60px;
-	margin-top:50px;
-	margin-bottom: 1px;
-}
-
-.mainheadingIndex p{
-	color:white;
-	Font-size:50px;
-	margin-top: 1px;
-	padding-bottom:137px;
-}
-
-.mainheadingIndex h3 {
-	margin:auto;
-	padding-bottom:15px;
-	color:white;
-}
-
-
 /*changed wrapperinfo to display white background box*/
-.wrapperInfo1
-{
+.wrapperInfo1{
 	display:block;
 	width:87%;
 	clear: both;
@@ -114,10 +93,8 @@ nav img {
 
 }
 
-
 /*css for the header in the grey box*/
-.wrapperInfo1 h2
-{
+.wrapperInfo1 h2{
 	color:white;
 	padding:15px;
 	background-color:#2f3136;
@@ -128,7 +105,7 @@ nav img {
 
 
 /* card styling for one card when they are next to each other*/
-.wrapper {
+.wrapper{
   float: left;
   width: 45%;
   padding-top: 50px;
@@ -473,7 +450,7 @@ display: block;
 
 
 
-/* Button Style */
+/* Button Style for carousel */
 .button {
   margin: 0 auto;
   background-color:#15115E;
