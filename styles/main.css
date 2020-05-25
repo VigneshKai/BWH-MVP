@@ -97,42 +97,13 @@ nav img {
 	padding-bottom:15px;
 	color:white;
 }
-.wrapperInfoIndex{
-	display:block;
-	width:87%;
-	clear: both;
-	margin-left: auto;
-    margin-right: auto;
-	background-color:white;
-	padding-bottom:1200px;
 
-
-}
 
 /*changed wrapperinfo to display white background box for 4 cards*/
-.wrapperInfo4{
-	display:block;
-	width:87%;
-	clear: both;
-	margin-left: auto;
-    margin-right: auto;
-	background-color:white;
-	padding-bottom:1000px;
-
-
-}
-/*changed wrapperinfo to display white background box for 2 cards*/
-.wrapperInfo2{
-	display:block;
-	width:87%;
-	clear: both;
-	margin-left: auto;
-    margin-right: auto;
-	background-color:white;
-	padding-bottom:625px;
-}
-/*changed wrapperinfo to display white background box for 1 cards*/
-.wrapperInfo1{
+.wrapperInfo4,
+.wrapperInfo2,
+.wrapperInfo1,
+.wrapperInfoIndex{
 	display:block;
 	width:87%;
 	clear: both;
@@ -145,7 +116,8 @@ nav img {
 
 }
 
-/*css for the header in the white box*/
+
+/*css for the header in the grey box*/
 .wrapperInfo4 h2,
 .wrapperInfo2 h2,
 .wrapperInfo1 h2,
@@ -228,7 +200,7 @@ iframe{
   background-color: #f1f1f1;
 }
 
-/*css styling for cards on pages with 3 cards*/
+/*css styling for cards on pages with 3/1 cards*/
 .card_2 img{
 	max-width: 100%;
     max-height: 310px;
@@ -238,7 +210,7 @@ iframe{
 .card_2 {
   padding: 16px;
   width:95%;
-  height:400px;
+  height:310px;
   text-align:left;
   font-size:20px;
   background-color: #f1f1f1;
@@ -249,7 +221,7 @@ iframe{
 	max-width: 100%;
     max-height: 500px;
 	float:left;
-	max-height: 400px;
+
 	margin-right:20px;
 }
 /*padding for li*/
@@ -637,41 +609,25 @@ footer div{
 	margin-bottom:0px;
 }
 
-.wrapperInfo2{
-	width: 100%;
-    display: block;
-    margin-bottom: 0px;
-	padding-bottom:985px;
-}
 
-.wrapperInfo4{
-	width: 100%;
-	display: block;
-	margin-bottom: 0px;
-	padding-bottom:1650px;
 
-  }
-.wrapperInfoIndex{
+.wrapperInfo4,
+.wrapperInfoIndex,
+.wrapperInfo2,
+.wrapperInfo1,
+.wrapperInfo{
 	width: 100%;
 	display: block;
 	margin-bottom: 0px;
-	padding-bottom:1950px;
-
-
-}
-
-  .wrapperInfo1{
-	width: 100%;
-	display: block;
-	margin-bottom: 0px;
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+	background-color:white;
+	overflow:hidden;
+	padding-bottom:15px;
 
   }
-.wrapperInfo {
-  width: 100%;
-  display: block;
-  margin-bottom: 0px;
-	padding-bottom:1750px;
-  }
+
 
 .card_1 {
   padding: 5px;
