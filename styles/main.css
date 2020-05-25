@@ -99,11 +99,9 @@ nav img {
 }
 
 
-/*changed wrapperinfo to display white background box for 4 cards*/
-.wrapperInfo4,
-.wrapperInfo2,
-.wrapperInfo1,
-.wrapperInfoIndex{
+/*changed wrapperinfo to display white background box*/
+.wrapperInfo1
+{
 	display:block;
 	width:87%;
 	clear: both;
@@ -549,11 +547,10 @@ footer div{
 
 /*@media screen is used to make the website more mobile friendly, making the cards fit to size and the nav to hide the a links */
 @media screen and (max-width: 1024px) {
+	.formli {
+	padding-right:75px;
+}
 
-	form{
-			position: relative;
-	    left: 10px;
-	}
 
 .collapsible {
 	background-color:#898f89;
@@ -611,11 +608,8 @@ footer div{
 
 
 
-.wrapperInfo4,
-.wrapperInfoIndex,
-.wrapperInfo2,
-.wrapperInfo1,
-.wrapperInfo{
+.wrapperInfo1
+{
 	width: 100%;
 	display: block;
 	margin-bottom: 0px;
