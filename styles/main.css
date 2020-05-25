@@ -60,7 +60,7 @@ nav img {
   z-index: 100;
   color:#ffffff;
   Font-size:60px;
-	margin-top:50px;
+	margin-top:70px;
 	margin-bottom: 1px;
 }
 
@@ -416,6 +416,9 @@ display: block;
 	padding: 4px 0 4px 0;
 	width:100%;
 }
+.SilverImg{
+	width:30%;
+}
 
 .bronze{
 	margin:0;
@@ -424,8 +427,18 @@ display: block;
 	width:100%;
 }
 
+.BronzeImg{
+	width:20%;
+
+}
  .centre{
    margin:0 auto;
+}
+
+.centre h2{
+	padding-top:100px;
+	font-size:5vw;
+
 }
 .pbwrapper{
   margin:0 auto;
@@ -458,7 +471,6 @@ display: block;
 	background-color: #f1f1f1;
   box-shadow: 1px 1px 15px #ccc;
 }
-
 
 .card-header h3{
 	font-family:Arial;
@@ -557,6 +569,15 @@ footer div{
   padding-left:0px;
 }
 
+.BronzeImg, .PlatImg, .GoldImg, .SilverImg{
+	max-width: 100%
+
+}
+
+.centre h2{
+	font-size:7vw;
+}
+
   .wrapper3 {
   float: left;
   width: 100%;
@@ -565,16 +586,16 @@ footer div{
 }
 
 .mainheading h1 {
-	margin-top: 60px;
+	margin-top: 70px;
 	z-index: 100;
   color:#ffffff;
-  Font-size:13vw;
+  font-size:12vw;
   padding-top:10px;
 }
 
 .mainheading p{
 	color:white;
-	Font-size:50px;
+	font-size:50px;
 	margin-top: 0px;
 	padding-bottom:0px;
 	margin-bottom:0px;
