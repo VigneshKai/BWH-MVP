@@ -569,9 +569,19 @@ footer div{
   color: white;
 }
 
+form{
+		position: relative;
+    left: 40px;
+}
+
 /*@media screen is used to make the website more mobile friendly, making the cards fit to size and the nav to hide the a links */
 @media screen and (max-width: 1024px) {
-	
+
+	form{
+			position: relative;
+	    left: 10px;
+	}
+
 .collapsible {
 	background-color:#898f89;
 	border-radius:5px;
@@ -592,8 +602,8 @@ footer div{
 .collapsible:active {
 	position:relative;
 	top:1px;
-}	
-	
+}
+
   .wrapper {
   float: left;
   width: 100%;
@@ -648,7 +658,7 @@ footer div{
 
 
 }
-  
+
   .wrapperInfo1{
 	width: 100%;
 	display: block;
@@ -694,7 +704,7 @@ footer div{
 	margin: auto;
     display: block;
 	float: none;
-	
+
 }
 .card_3 {
   padding:5px;
@@ -704,7 +714,7 @@ footer div{
   font-size:15px;
   background-color: #f1f1f1;
   margin:auto;
-  
+
 }
 
 .card_3 ul{
@@ -740,8 +750,3 @@ width:100%;
 		font-style: italic;
 }
 }
-
-
-
-
-
