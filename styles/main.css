@@ -116,10 +116,7 @@ nav img {
 
 
 /*css for the header in the grey box*/
-.wrapperInfo4 h2,
-.wrapperInfo2 h2,
-.wrapperInfo1 h2,
-.wrapperInfoIndex h2
+.wrapperInfo1 h2
 {
 	color:white;
 	padding:15px;
